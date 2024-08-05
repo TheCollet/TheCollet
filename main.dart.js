@@ -21339,8 +21339,9 @@ P5:function P5(){},
 P8:function P8(){},
 P9:function P9(){},
 QK:function QK(){},
-Ic:function Ic(a,b){this.x=a
-this.a=b},
+Ic:function Ic(a,b,c){this.e=a
+this.x=b
+this.a=c},
 a3i:function a3i(a,b,c){this.a=a
 this.b=b
 this.c=c},
@@ -68464,8 +68465,9 @@ A.P8.prototype={}
 A.P9.prototype={}
 A.QK.prototype={}
 A.Ic.prototype={
-V(a){var s,r,q,p=null,o={},n=A.aB0(a,B.bb,!1)
-o.a=this.x
+V(a){var s,r,q,p=null,o={},n=A.aB0(a,B.bb,!1),m=this.x
+o.a=m
+o.a=new A.hr(this.e,m,p)
 s=A.av0(a,B.bb)
 r=s?A.a0u(a):p
 q=A.akC(n,B.aj,r,B.be,p,p,p,new A.a3i(o,this,n))
@@ -71227,7 +71229,7 @@ A.a05.prototype={
 TK(a){$.adP().n(0,this,a)}}
 A.Br.prototype={
 V(a){var s=null
-return A.aft(s,A.a_(255,236,236,236),A.Ca(new A.hr(B.CS,new A.Ic(A.ai9(A.a([A.ajf("assets/images/profile.png",s,250,250),A.lg(s,20,s),A.nQ("Oleksandr Tsyhyka",A.fT(s,s,s,s,s,s,s,s,s,s,s,40,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.bq),A.nQ("- Graphic designer / Game designer -",A.fT(s,s,A.a_(255,59,59,59),s,s,s,s,s,s,s,s,26,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.bq),A.lg(s,16,s),A.nQ("Education:\n\u2022 Uzhhorod National University (2021-2025)\n\nExperienced in:\n\u2022 Adobe Photoshop\n\u2022 Adobe Substance Painter\n\u2022 Blender 3D\n\nBasic skills in:\n\u2022 Unreal Engine 5\n\u2022 Adobe Premiere Pro\n\u2022 Cinema4D\n\nPersonal qualities:\n\u2022 Creative\n\u2022 Attentive to details",A.fT(s,s,A.a_(255,82,82,82),s,s,s,s,s,s,s,s,22,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.bq)],t.E),B.c2,B.eA),s),s),s,s),s)}}
+return A.aft(s,A.a_(255,236,236,236),new A.Ic(B.CS,A.Ca(A.ai9(A.a([A.ajf("assets/images/profile.png",s,250,250),A.lg(s,20,s),A.nQ("Oleksandr Tsyhyka",A.fT(s,s,s,s,s,s,s,s,s,s,s,40,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.bq),A.nQ("- Graphic designer / Game designer -",A.fT(s,s,A.a_(255,59,59,59),s,s,s,s,s,s,s,s,26,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.bq),A.lg(s,16,s),A.nQ("Education:\n\u2022 Uzhhorod National University (2021-2025)\n\nExperienced in:\n\u2022 Adobe Photoshop\n\u2022 Adobe Substance Painter\n\u2022 Blender 3D\n\nBasic skills in:\n\u2022 Unreal Engine 5\n\u2022 Adobe Premiere Pro\n\u2022 Cinema4D\n\nPersonal qualities:\n\u2022 Creative\n\u2022 Attentive to details",A.fT(s,s,A.a_(255,82,82,82),s,s,s,s,s,s,s,s,22,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.bq)],t.E),B.c2,B.eA),s,s),s),s)}}
 A.uO.prototype={
 ap(){return new A.LV(A.ak1(0),B.n)}}
 A.LV.prototype={
